@@ -65,6 +65,7 @@ print "imgPthSet_test ",imgPthSet_test.shape
 print "imgPthSet_train ",imgPthSet_train.shape
 print "ansSet_training", ansSet_training.shape
 print "ansSet_testing", ansSet_testing.shape
+print ansSet_testing
 print ""
 
 # quickly view of the patches in one image
@@ -243,5 +244,5 @@ knn = KNeighborsClassifier ( n_neighbors = 5 )
 knn.fit(images_1500_15d,ansSet_training)
 predict_ans_list=knn.predict(images_500_15d)
 print accuracy_score(ansSet_testing,predict_ans_list)
-print predict_ans_list
+print "predict_ans_list",predict_ans_list
 plt.show()
