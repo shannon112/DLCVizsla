@@ -1,7 +1,7 @@
 # PCA and KNN
-executable file  
+executable file and executing  
 ```
-pca_reconstruction.py
+python2 pca_reconstruction.py
 ```  
 expected output windows image
 ```
