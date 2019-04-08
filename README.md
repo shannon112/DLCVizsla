@@ -8,3 +8,5 @@ The Vizsla (Hungarian: [ˈviʒlɒ]) is a dog breed originating in Hungary.
   * cv2&matplotlib(gray), MSE, PCA, reconstruction, k-NN  
 * 02.BoW - image classification
   * cv2&matplotlib(rgb), Patches, k-means, PCA, scatterPlot3D, Soft-max(max pooling), k-NN
+* 03.MNISTdemo - handwritten digit recognition
+  * for pytorch and cuda testing
