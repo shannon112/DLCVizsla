@@ -1,7 +1,7 @@
 # Bag of word
-executable file  
+executable file & executing 
 ```
-pca_reconstruction.py
+python2 BoW.py
 ```  
 expected output windows image
 ```
@@ -16,5 +16,5 @@ terminalOutput.png
 ```
 Final result & discussion  
 ```
-DLCV HW1 prob2.pdf
+DLCV HW1 prob3.pdf
 ```  
