@@ -92,7 +92,7 @@ print('Label tensor in each batch:', labels.shape, labels.dtype)
 #import numpy as np
 # functions to show an image
 def imshow(img):
-    npimg = img.numpy()
+    npimg = img.numpy() # transfer torch to numpy
     plt.imshow(np.transpose(npimg, (1, 2, 0)))
 
 # show images
@@ -155,12 +155,13 @@ print(model)
 #First, we define the training loop.
 #[09]
 def train(model, epoch, log_interval=100):
+    #gradient decent function
     optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
     criterion = nn.CrossEntropyLoss()
     model.train()  # Important: set training mode
 
-    iteration = 0
-    for ep in range(epoch):
+    iteration = 0 # one iteration would go through a batch
+    for ep in range(epoch): # one epoch would go through hole loader
         for batch_idx, (data, target) in enumerate(trainset_loader):
             data, target = data.to(device), target.to(device)
             optimizer.zero_grad()
@@ -174,7 +175,6 @@ def train(model, epoch, log_interval=100):
                     ep, batch_idx * len(data), len(trainset_loader.dataset),
                     100. * batch_idx / len(trainset_loader), loss.item()))
             iteration += 1
-
         test(model) # Evaluate at the end of each epoch
 
 
@@ -191,7 +191,7 @@ def test(model):
             output = model(data)
             test_loss += criterion(output, target).item() # sum up batch loss
             pred = output.max(1, keepdim=True)[1] # get the index of the max log-probability
-            correct += pred.eq(target.view_as(pred)).sum().item()
+            correct += pred.eq(target.view_as(pred)).sum().item() # sum up the correct ans
 
     test_loss /= len(testset_loader.dataset)
     print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
@@ -201,7 +201,7 @@ def test(model):
 
 #[11]
 #It's time to train the model!
-'''train(model, 5)  # train 5 epochs should get you to about 97% accuracy'''
+train(model, 5)  # train 5 epochs should get you to about 97% accuracy'''
 
 
 ##################
@@ -261,7 +261,7 @@ def train_save(model, epoch, save_interval, log_interval=100):
 test(model)
 train_save(model, 5, 500, 100)'''
 
-
+'''
 #[15]
 #Assume that we have stopped our training program.
 #To load the saved model, we need to create the model and optimizer once again.
@@ -412,4 +412,5 @@ model = Net().to(device) # Remember to move the model to "device"
 x = torch.Tensor(64,1,28,28).to(device) # shape of N*C*H*W
 x = model(x)
 
+'''
 plt.show()
