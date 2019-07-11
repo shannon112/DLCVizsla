@@ -1,0 +1,312 @@
+start training at:2019-06-03 23:44:28.369326
+Epoch:1
+avg training loss:2.3184969425201416
+validation accuracy: 0.350078125
+save as best.pth
+Epoch:2
+avg training loss:2.220160961151123
+validation accuracy: 0.43218749999999995
+save as best.pth
+Epoch:3
+avg training loss:2.161693811416626
+validation accuracy: 0.47257812500000007
+save as best.pth
+Epoch:4
+avg training loss:2.110801649093628
+validation accuracy: 0.520078125
+save as best.pth
+Epoch:5
+avg training loss:2.0755926609039306
+validation accuracy: 0.531796875
+save as best.pth
+Epoch:6
+avg training loss:2.0564294338226317
+validation accuracy: 0.540078125
+save as best.pth
+Epoch:7
+avg training loss:2.027125120162964
+validation accuracy: 0.515390625
+Epoch:8
+avg training loss:2.0036551475524904
+validation accuracy: 0.54296875
+save as best.pth
+Epoch:9
+avg training loss:1.9660630464553832
+validation accuracy: 0.608359375
+save as best.pth
+Epoch:10
+avg training loss:1.949230933189392
+validation accuracy: 0.62640625
+save as best.pth
+Epoch:11
+avg training loss:1.9388566732406616
+validation accuracy: 0.6153906250000001
+Epoch:12
+avg training loss:1.920771026611328
+validation accuracy: 0.577890625
+Epoch:13
+avg training loss:1.9074583768844604
+validation accuracy: 0.60875
+Epoch:14
+avg training loss:1.8941150188446045
+validation accuracy: 0.5867968749999999
+Epoch:15
+avg training loss:1.8878723859786988
+validation accuracy: 0.617890625
+Epoch:16
+avg training loss:1.8811711072921753
+validation accuracy: 0.62421875
+Epoch:17
+avg training loss:1.8757848501205445
+validation accuracy: 0.5875781250000001
+Epoch:18
+avg training loss:1.8691739559173584
+validation accuracy: 0.6310156250000001
+save as best.pth
+Epoch:19
+avg training loss:1.870737338066101
+validation accuracy: 0.597109375
+Epoch:20
+avg training loss:1.8686144351959229
+validation accuracy: 0.6143750000000001
+Epoch:21
+avg training loss:1.8664745092391968
+validation accuracy: 0.60375
+Epoch:22
+avg training loss:1.8563891172409057
+validation accuracy: 0.59765625
+Epoch:23
+avg training loss:1.851927638053894
+validation accuracy: 0.6153124999999999
+Epoch:24
+avg training loss:1.8390966415405274
+validation accuracy: 0.6192187499999999
+Epoch:25
+avg training loss:1.830509638786316
+validation accuracy: 0.59265625
+Epoch:26
+avg training loss:1.820066237449646
+validation accuracy: 0.6045312500000002
+Epoch:27
+avg training loss:1.8184618949890137
+validation accuracy: 0.595703125
+Epoch:28
+avg training loss:1.814677906036377
+validation accuracy: 0.62421875
+Epoch:29
+avg training loss:1.8115860223770142
+validation accuracy: 0.6146875
+Epoch:30
+avg training loss:1.8020150899887084
+validation accuracy: 0.61671875
+Epoch:31
+avg training loss:1.797748041152954
+validation accuracy: 0.6061718749999999
+Epoch:32
+avg training loss:1.7922415733337402
+validation accuracy: 0.5850781250000001
+Epoch:33
+avg training loss:1.7977131605148315
+validation accuracy: 0.5873437499999999
+Epoch:34
+avg training loss:1.7909043073654174
+validation accuracy: 0.606640625
+Epoch:35
+avg training loss:1.7865079641342163
+validation accuracy: 0.602265625
+Epoch:36
+avg training loss:1.7858726978302002
+validation accuracy: 0.534375
+Epoch:37
+avg training loss:1.7817068576812745
+validation accuracy: 0.594765625
+Epoch:38
+avg training loss:1.7796865940093993
+validation accuracy: 0.5945312499999998
+Epoch:39
+avg training loss:1.7695912837982177
+validation accuracy: 0.5694531249999999
+Epoch:40
+avg training loss:1.7664156913757325
+validation accuracy: 0.5987500000000001
+Epoch:41
+avg training loss:1.7563192129135132
+validation accuracy: 0.591640625
+Epoch:42
+avg training loss:1.7542510509490967
+validation accuracy: 0.5868749999999999
+Epoch:43
+avg training loss:1.7494587182998658
+validation accuracy: 0.56640625
+Epoch:44
+avg training loss:1.741153883934021
+validation accuracy: 0.5532812500000001
+Epoch:45
+avg training loss:1.7317634582519532
+validation accuracy: 0.5179687500000001
+Epoch:46
+avg training loss:1.7281513929367065
+validation accuracy: 0.598203125
+Epoch:47
+avg training loss:1.722945547103882
+validation accuracy: 0.592734375
+Epoch:48
+avg training loss:1.720672607421875
+validation accuracy: 0.530078125
+Epoch:49
+avg training loss:1.713400936126709
+validation accuracy: 0.5921875000000001
+Epoch:50
+avg training loss:1.7081762313842774
+validation accuracy: 0.5584375
+Epoch:51
+avg training loss:1.7043535947799682
+validation accuracy: 0.57984375
+Epoch:52
+avg training loss:1.701713228225708
+validation accuracy: 0.5792187500000001
+Epoch:53
+avg training loss:1.6967699527740479
+validation accuracy: 0.56765625
+Epoch:54
+avg training loss:1.7012932538986205
+validation accuracy: 0.5575781249999999
+Epoch:55
+avg training loss:1.6995043277740478
+validation accuracy: 0.5833593750000001
+Epoch:56
+avg training loss:1.7060569524765015
+validation accuracy: 0.57328125
+Epoch:57
+avg training loss:1.7095167875289916
+validation accuracy: 0.5223437500000001
+Epoch:58
+avg training loss:1.6984127759933472
+validation accuracy: 0.573359375
+Epoch:59
+avg training loss:1.6936608791351317
+validation accuracy: 0.5838281249999999
+Epoch:60
+avg training loss:1.6897377252578736
+validation accuracy: 0.5818750000000001
+Epoch:61
+avg training loss:1.684286069869995
+validation accuracy: 0.5486718749999999
+Epoch:62
+avg training loss:1.6792815685272218
+validation accuracy: 0.562734375
+Epoch:63
+avg training loss:1.6704148054122925
+validation accuracy: 0.5359375000000001
+Epoch:64
+avg training loss:1.6706605911254884
+validation accuracy: 0.5457812499999999
+Epoch:65
+avg training loss:1.665438985824585
+validation accuracy: 0.5198437499999999
+Epoch:66
+avg training loss:1.6623668193817138
+validation accuracy: 0.583359375
+Epoch:67
+avg training loss:1.6620538711547852
+validation accuracy: 0.502265625
+Epoch:68
+avg training loss:1.6636273384094238
+validation accuracy: 0.5577343749999999
+Epoch:69
+avg training loss:1.6590231895446776
+validation accuracy: 0.556875
+Epoch:70
+avg training loss:1.6522162437438965
+validation accuracy: 0.544140625
+Epoch:71
+avg training loss:1.6504197359085082
+validation accuracy: 0.5552343750000001
+Epoch:72
+avg training loss:1.6543808937072755
+validation accuracy: 0.5703125
+Epoch:73
+avg training loss:1.6512789726257324
+validation accuracy: 0.550234375
+Epoch:74
+avg training loss:1.6467584133148194
+validation accuracy: 0.555859375
+Epoch:75
+avg training loss:1.6477678537368774
+validation accuracy: 0.5504687500000001
+Epoch:76
+avg training loss:1.6452928066253663
+validation accuracy: 0.535078125
+Epoch:77
+avg training loss:1.6425785303115845
+validation accuracy: 0.566484375
+Epoch:78
+avg training loss:1.6410657167434692
+validation accuracy: 0.55640625
+Epoch:79
+avg training loss:1.6389660358428955
+validation accuracy: 0.52203125
+Epoch:80
+avg training loss:1.6394410848617553
+validation accuracy: 0.571796875
+Epoch:81
+avg training loss:1.6377057075500487
+validation accuracy: 0.56703125
+Epoch:82
+avg training loss:1.6362923860549927
+validation accuracy: 0.53171875
+Epoch:83
+avg training loss:1.6362153530120849
+validation accuracy: 0.57046875
+Epoch:84
+avg training loss:1.6344609022140504
+validation accuracy: 0.53390625
+Epoch:85
+avg training loss:1.6360451698303222
+validation accuracy: 0.5699218749999999
+Epoch:86
+avg training loss:1.633006715774536
+validation accuracy: 0.5603906250000001
+Epoch:87
+avg training loss:1.6316652774810791
+validation accuracy: 0.5371874999999999
+Epoch:88
+avg training loss:1.6320261001586913
+validation accuracy: 0.5152343749999999
+Epoch:89
+avg training loss:1.6309213876724242
+validation accuracy: 0.5828125
+Epoch:90
+avg training loss:1.631721591949463
+validation accuracy: 0.5721875000000001
+Epoch:91
+avg training loss:1.6302945613861084
+validation accuracy: 0.557578125
+Epoch:92
+avg training loss:1.6292251586914062
+validation accuracy: 0.529375
+Epoch:93
+avg training loss:1.6275552988052369
+validation accuracy: 0.5607031250000001
+Epoch:94
+avg training loss:1.6275704622268676
+validation accuracy: 0.5025781250000001
+Epoch:95
+avg training loss:1.6270423650741577
+validation accuracy: 0.5628906250000001
+Epoch:96
+avg training loss:1.6249085903167724
+validation accuracy: 0.496875
+Epoch:97
+avg training loss:1.6242403030395507
+validation accuracy: 0.557109375
+Epoch:98
+avg training loss:1.6220385789871217
+validation accuracy: 0.52890625
+Epoch:99
+avg training loss:1.6227563619613647
+validation accuracy: 0.5346875
+Epoch:100
+avg training loss:1.6186194181442262
+validation accuracy: 0.5372656249999999
+end training at:2019-06-03 23:45:25.445855
