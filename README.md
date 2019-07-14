@@ -30,12 +30,10 @@ you can get more details in each ```README.md``` or ```report.pdf``` inside fold
   * trained on USPS(28,28), MNIST-M(28,28,3), SVHN(28,28,3) Dataset
 
 * hw4_rnn_action_recognition
+  * pre-train resnet-50 + linear, LSTM, pack_padding, seq2seq action recognition, tSNE plot
+  * train	on 37 full-length videos (each 5-20 mins in 24 fps), and 4151 trimmed videos (each 5-20 secs in 24 fps),	11 action classes
+
 * DLCV_Final
   * Visual odometry with deep learning (DeepVO)
   * https://github.com/shannon112/VFX_Final
-
-## contents:  
-* 01.PCA_kNN - face recognition
-* 02.BoW - image classification
-* 03.MNISTdemo - 
   
