@@ -34,6 +34,7 @@ you can get more details in each ```README.md``` or ```report.pdf``` inside fold
   * train	on 37 full-length videos (each 5-20 mins in 24 fps), and 4151 trimmed videos (each 5-20 secs in 24 fps),	11 action classes
 
 * DLCV_Final
-  * Visual odometry with deep learning (DeepVO)
-  * https://github.com/shannon112/VFX_Final
+  * Cast Search by Portrait Challenge
+  * face recognition (dlib), person re-id (resnet-50)
+  * https://github.com/dlcv-spring-2019/final-ShiaGiBaLuanTrain
   
