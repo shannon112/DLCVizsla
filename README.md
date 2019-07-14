@@ -6,12 +6,14 @@ you can get more details in each ```README.md``` or ```report.pdf``` inside fold
 
 ---
 
-* MNIST_recognition_demo
-  * handwritten digit recognition
+* demo_digit_recognition
+  * MNIST handwritten digit recognition
   * for pytorch and cuda testing
 * hw1_face_recognition
+  * face images of 40 different subjects and 10 grayscale images for each subject, all of size (56, 46) pixels
   * cv2&matplotlib(gray), MSE, PCA, reconstruction, k-NN  
 * hw1_image_classification
+  * 4 categories (classes) and 500 RGB images for each category, all of size (64, 64, 3) pixels
   * cv2&matplotlib(rgb), Bag of Word(BoW), Patches, k-means, PCA, scatterPlot3D, Soft-max(max pooling), k-NN
 
 * hw2_YOLOv1_object_detection
