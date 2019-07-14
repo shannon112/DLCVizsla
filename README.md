@@ -16,10 +16,12 @@ you can get more details in each ```README.md``` or ```report.pdf``` inside fold
   * 4 categories (classes) and 500 RGB images for each category, all of size (64, 64, 3) pixels
   * cv2&matplotlib(rgb), Bag of Word(BoW), Patches, k-means, PCA, scatterPlot3D, Soft-max(max pooling), k-NN
 * hw2_YOLOv1_object_detection
+  * https://github.com/dlcv-spring-2019/hw2-shannon112
   * YOLOv1: Redmon, Joseph, et al. "You only look once: Unified, real-time object detection." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
   * trained on DOTA-v1.5 Aerial Images 
   * yolo loss, vgg16_bn+linear model
 * hw3_dcgan_acgan_dann
+  * https://github.com/dlcv-spring-2019/hw3-shannon112
   * GAN[1], DCGAN[2], ACGAN[3], DANN[4], GTA[5], tSNE plot
   * [1] Goodfellow, Ian, et al. "Generative adversarial nets." Advances in neural information processing systems. 2014.
   * [2] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
@@ -30,6 +32,7 @@ you can get more details in each ```README.md``` or ```report.pdf``` inside fold
   * trained on USPS(28,28), MNIST-M(28,28,3), SVHN(28,28,3) Dataset
 
 * hw4_rnn_action_recognition
+  * https://github.com/dlcv-spring-2019/hw4-shannon112
   * pre-train resnet-50 + linear, LSTM, pack_padding, seq2seq action recognition, tSNE plot
   * train	on 37 full-length videos (each 5-20 mins in 24 fps), and 4151 trimmed videos (each 5-20 secs in 24 fps),	11 action classes
 
