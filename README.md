@@ -15,8 +15,10 @@ you can get more details in each ```README.md``` or ```report.pdf``` inside fold
 * hw1_image_classification
   * 4 categories (classes) and 500 RGB images for each category, all of size (64, 64, 3) pixels
   * cv2&matplotlib(rgb), Bag of Word(BoW), Patches, k-means, PCA, scatterPlot3D, Soft-max(max pooling), k-NN
-
 * hw2_YOLOv1_object_detection
+  * YOLOv1: https://arxiv.org/pdf/1506.02640.pdf
+  * trained on DOTA-v1.5 Aerial Images 
+  * yolo loss, vgg16_bn+linear model
 * hw3_dcgan_acgan_dann
 * hw4_rnn_action_recognition
 * DLCV_Final
