@@ -40,4 +40,4 @@ you can get more details in each ```README.md``` or ```report.pdf``` inside fold
   * https://github.com/dlcv-spring-2019/final-ShiaGiBaLuanTrain
   * Cast Search by Portrait Challenge
   * face recognition (dlib), person re-id (resnet-50)
-  
+  <img src="https://raw.githubusercontent.com/shannon112/DLCVizsla/master/poster.png" width="500">
